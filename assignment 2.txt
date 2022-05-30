@@ -1,0 +1,49 @@
+void main() {
+  print("this is my new assingment using IF,ELSE IF condition");
+  var english = 75;
+  var urdu = 85;
+  var maths = 68;
+  var islamiyat = 65;
+  var science = 75;
+  var totalmark = 500;
+  var obt = english + urdu + maths + islamiyat + science;
+  var percentage = obt / totalmark * 100;
+
+  print("   ");
+  print("                   ***MARKSHEET***                  ");
+  print("   ");
+  print(" name           :    muhammad sameer azeem");
+  print(" father name    :    muhammad azeem ");
+  print(" institute name :    jawan pakistan ");
+  print(" Roll number    :    50405 ");
+  print(" ======================================================== ");
+  print(" obtained marks ");
+  print("   ");
+  print(" marks of english         =         $english out of 100 ");
+  print(" marks of urdu            =         $urdu out of 100 ");
+  print(" marks of maths           =         $maths out of 100 ");
+  print(" marks of islamiyat       =         $islamiyat out of 100 ");
+  print(" marks of science         =         $science out of 100 ");
+  print(" ========================================================= ");
+  print(" totalmark                =         $totalmark");
+  print(" obt                      =         $obt");
+  print(" percentage               =         $percentage");
+  print("   ");
+       if(percentage>=80){
+       print('your Grade is A+');
+       }
+       else if(percentage>=70){
+       print('your Grade is A');
+       }
+       else if(percentage>=60){
+       print('your Grade is B');
+       } 
+       else if(percentage>=50){
+       print('your Grade is C');
+       }
+       else{
+       print ('your Grade is D');
+       }
+       print("   ");
+       print("good work keep it up");
+}
